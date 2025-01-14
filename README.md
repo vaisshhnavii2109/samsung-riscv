@@ -13,3 +13,4 @@ This repository contains all the tasks and learnings from the RISC-V Program lea
 
 
 1. Task 1: C-based Lab video and RISC-V based Lab video
+2. Task 2: Debugging the file to understand the changes in the location before and after the instruction is executed.
