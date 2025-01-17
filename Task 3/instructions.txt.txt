@@ -1,0 +1,74 @@
+1. lui     a2, 0x376
+Encoding (Hex): 00376637
+Encoding (Binary): 0000 0000 0011 0111 0110 0110 0011 0111
+Type: U
+
+2.addi    sp, sp, -16
+Encoding (Hex): ff010113
+Encoding (Binary): 1111 1111 0000 0001 0000 0001 0001 0011
+Type: I
+
+3.li      a1, 10
+Encoding (Hex): 00a00593
+Encoding (Binary): 0000 0000 1010 0000 0000 0101 1001 0011
+Type:I
+
+4.sd      ra, 8(sp)
+Encoding (Hex): 00113423
+Encoding (Binary): 0000 0000 0001 0001 0011 0100 0010 0011
+Type: S
+
+5.jal     pc + 0x340
+Encoding (Hex): 340000ef
+Encoding (Binary): 0011 0100 0000 0000 0000 0000 1110 1111
+Type: J
+
+6.ld      ra, 8(sp)
+Encoding (Hex): 00813083
+Encoding (Binary):0000 0000 1000 0001 0011 0000 1000 0011
+Type: I
+
+7.mv      a2, a0
+Encoding (Hex): 00050613
+Encoding (Binary): 0000 0000 0000 0101 0000 0110 0001 0011
+Type: I
+
+8.bnez    a5, 1018c
+Encoding (Hex): 04079463
+Encoding (Binary):0000 0100 0000 0111 1001 0100 0110 0011
+Type: B
+
+9.bltz    a5, pc + 42
+Encoding (Hex): 0207c563
+Encoding (Binary): 0000 0010 0000 0111 1100 0101 0110 0011
+Type: B
+
+10.auipc   a4, 0x7
+Encoding (Hex): 00007717
+Encoding (Binary): 0000 0000 0000 0000 0111 0111 0001 0111
+Type: U
+
+11.and     s2, a0, s2
+Encoding (Hex): 01257933
+Encoding (Binary): 0000 0001 0010 0101 0111 1001 0011 0011
+Type: R
+
+12.srli    a5, s2, 30
+Encoding (Hex): 01e95793
+Encoding (Binary): 0000 0001 1110 1001 0101 0111 1001 0011
+Type:I
+
+13.beqz    a5, pc + 406
+Encoding (Hex): 18078b63
+Encoding (Binary): 0001 1000 0000 0111 1000 1011 0110 0011
+Type: B
+
+14.bgeu    s2, a4, pc + 322
+Encoding (Hex): 14e97163
+Encoding (Binary): 0001 0100 1110 1001 0111 0001 0110 0011
+Type: B
+
+15.andi    a4, a5, 1
+Encoding (Hex): 0017f713
+Encoding (Binary): 0000 0000 0001 0111 1111 0111 0001 0011	
+Type: I
