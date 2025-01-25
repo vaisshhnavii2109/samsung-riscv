@@ -11,6 +11,3 @@ This repository contains all the tasks and learnings from the RISC-V Program lea
 - **GitHub Profile:** https://github.com/vaisshhnavii2109
 - **LinkedIn Profile:** www.linkedin.com/in/vaishnavi-r-katti-293099252
 
-
-1. Task 1: C-based Lab video and RISC-V based Lab video
-2. Task 2: Debugging the code to understand the changes in the location before and after the instruction is executed.
